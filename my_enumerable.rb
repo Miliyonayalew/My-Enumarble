@@ -1,11 +1,19 @@
 module Enumerable
-    def all?
-        num = []
-        mylist.each { |n| num.push(n) if yield n }
-        print num.length == mylist.length
-    end
-    def any?
-    end
-    def filter
-    end
+  def all?
+    num = []
+    list.each { |n| num.push(n) if yield n }
+    p num.length == list.length
+  end
+
+  def any?
+    num = []
+    list.each { |n| num.push(n) if yield n }
+    p !num.empty?
+  end
+
+  def filter
+    num = []
+    list.each { |n| num.push(n) if yield n }
+    p num
+  end
 end

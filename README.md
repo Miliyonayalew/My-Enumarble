@@ -36,9 +36,6 @@
 
 **[My-Enumerable]** In this project we learn how to use a module inside a class.
 
-
-![](./morse.png)
-
 ## 🛠 Built With 
 <a name="built-with">Ruby</a>
 <br>
@@ -75,7 +72,7 @@ Clone this repository to your desired folder:
 - cd My-Enumarble
 
 ## Usage
-ruby `my_list`
+ruby `my_list.rb`
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
